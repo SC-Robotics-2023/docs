@@ -11,7 +11,7 @@ const projectName = "docs";
 const config = {
   title: "SC Robotics",
   tagline: "Rovers are cool",
-  url: `https://${organizationName}.github.io`,
+  url: `https://${organizationName}.github.io/docs`,
   baseUrl: `/docs/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
