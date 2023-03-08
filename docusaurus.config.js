@@ -17,7 +17,7 @@ const config = {
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   // GitHub Pages adds a trailing slash by default that I don't want
-  trailingSlash: false,
+  // trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
