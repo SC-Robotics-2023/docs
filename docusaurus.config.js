@@ -14,7 +14,7 @@ const config = {
   url: 'https://sc-robotics-2023.github.io/knowledge_base/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/knowledge_base/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
