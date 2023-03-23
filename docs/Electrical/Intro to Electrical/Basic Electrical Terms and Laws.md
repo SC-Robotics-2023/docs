@@ -1,4 +1,4 @@
-## Definitions to keep in the back of your head
+### Definitions to keep in the back of your head
 * Electric charges
     * Positive or negative or neutral
     * Like repel, unlike attracts each other 
@@ -15,7 +15,7 @@
 * Circuit
     * Closed path allowing continuous flow of electrons from one point to another
 
-## Never forget Ohm’s Law V=IR and P=VI
+### Never forget Ohm’s Law V=IR and P=VI
 
 ![Ohm's Law](./img/OhmsLaw.jpg)
 * I = Current (Amps) = flow of charge
@@ -29,7 +29,7 @@
     * Here is a [Sparkfun video](https://www.youtube.com/watch?v=p8JQTLkV5C8) 
     ![Atoms](./img/atoms.gif)
 
-## Voltage Range and Current Requirements
+### Voltage Range and Current Requirements
 
 * Components have a specific voltage range
     * Lower than required voltage, component won’t power on
@@ -43,7 +43,7 @@
     * __Nominal current:__ current needed for normal use, e.g. rover driving around
     * __Stall current:__ max current draw under edge conditions, e.g. the wheel got stuck but the motor keeps trying to rotate.
 
-## Series and Parallel
+### Series and Parallel
 ![Series and Parallel](./img/SeriesParallel.png)
 * Voltage in parallel branches is the same
 * Current across branches in series is the same

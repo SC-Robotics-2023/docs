@@ -6,13 +6,10 @@ sidebar_position: 1
 
 # Welcome
 
-Welcome to the SC Robotics knowledge base. Get roving.
+Welcome to the SC Robotics knowledge base. Select an item on the right. Get roving.
 
-![Docusaurus logo](/img/Arm_rover.png)
+![Rover with arm](/img/Arm_rover.png)
 
 
-## Getting Started
-
-Pick a category on the right.
 
 --------------------------------------------------------
