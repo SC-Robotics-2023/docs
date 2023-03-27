@@ -5,20 +5,25 @@ The Shapeoko CNC Router is (currently) the most advanced, dangerous, and useful 
 
 The CNC Router is basically a drill that can move around in three axes to drill away material from a stock piece, and turn it into something actually useful.
 
-The CNC Router is also _very_ dangerous. Keep in mind that the spindle is spinning at thousands of RPMs, and cutting metal away like it's butter (if you're using it properly, of course :). There's no need to be scared of it, but keep its dangerous potential in the back of your head and practice these safety precautions:
+:::danger
+The CNC Router is also _very_ dangerous. Keep in mind that the spindle is spinning at thousands of RPMs, and cutting metal away like it's butter (if you're using it properly, of course :) There's no need to be scared of it, but keep its dangerous potential in the back of your head and practice these safety precautions:
+:::
 * Always wear safety glasses. It's not a matter of _if_ something goes flying--they _will_, whether just shavings or broken bits.
 * Keep the spindle off unless it's cutting away material. Some people even recomment unplugging it before changing bits.
 * _NEVER_ put your hands near an active spindle while the CNC is controlling the stepper motors. If there's something wrong, pause the job, then fix the issue.
     * e.g. the screws on the clamps have become loose form the vibration, and the stock is coming loose. DO NOT tighten the screws while the job is running--pause it first, turn off the spindle, tighten the screws, and resume.
-    * e.g. the part is wiggling off of the rest of the stock as the job is almost finished (and you can't add more clamps). DO NOT use your hands to hold it down--use a scrap metal rod to hold it down from a dstance. OR you can use tabs :)
-* This goes without saying--follow the `Rules for Machining Success` that will be listed below. Whenever a job isn't going as expected (stock is coming loose, there's bit chatter, bit welding), that's when there's the highest risk of an accident. The best way to prevent accidents is to machine correctly.
+    * e.g. the part is wiggling off of the rest of the stock as the job is almost finished (and you can't add more clamps). DO NOT use your hands to hold it down--use a scrap metal rod to hold it down from a distance. OR you can use tabs :D
+* This goes without saying--follow the [Rules for Machining Success](#rules-for-machining-success-honestly-might-be-the-most-important) that are listed below. Whenever a job isn't going as expected (stock is coming loose, there's bit chatter, bit welding), that's when there's the highest risk of an accident. The best way to prevent accidents is to machine correctly.
 * Never leave the CNC Router unattended or attended by someone who doesn't know how it works.
-* Use common sense. You'll start to develop a sense for the proper sound and look (even smell, if the bit starts cutting into wood) of a properly-run job. If ANYTHING looks or sounds bad, check the cut and/or stop it.
+* Use common sense. You'll start to develop a sense for the proper sound and look (even smell, if the bit starts cutting into wood) of a properly-run job. If _anything_ looks or sounds bad, check the cut and/or stop it.
 
 ## Shapeoko Gitbook (MUST READ)
-This gitbook covers all of the fundamentals of CNCing with the Shapeoko. You should read through these sections carefully and do further research to make sure you understand these topics:
+[Shapeoko CNC A to Z](https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/)
+
+This gitbook covers all of the fundamentals of CNCing with the Shapeoko. You should look through the whole gitbook and do further research to make sure you thoroughly understand these topics:
+* Anatomy of a CNC: Workbed, steppers, pulleys/belts, trim routers vs VFD
 * Feeds and speeds: feedrate, spindle RPMs, chipload, depth of cut, width of cut, stepover, adaptive tooling, etc.
-* Types of bits: flute count, material (e.g. carbide vs HSS?), upcut vs downcut, v-carve, etc.
+* Types of bits: flute count, material (e.g. carbide vs HSS?), upcut vs downcut, square vs ball, v-carve, etc.
 
 Outside of that, this book has a lot of good info to just look around.
 
@@ -51,7 +56,9 @@ Clamp down your stock using tiger-claw clamps to prevent lateral movement. Tiger
 
 Clamp down your stock using the essential T-clamps. These clamps are double-sided--the side with the V-shaped tip is for shorter stock (1/16"~1/4"). The other end is used for thicker stock (>1/2"). These clamps are very important for making sure your Z-axis is accurate because they secure the stock flat against the bed. Make sure there are plenty of these clamps, especially around where your part will be cut.
 
-__NOTE:__ _Do not_ tighten the screws on the clamps too much. They are only there to hold the piece until it's secure enough, and enough that they won't come loose from the CNC vibrations. Tightening too much can strip the screw, damage the T Track, or damage your stock. In the case of the tiger claw clamps, tightening the small screw too much can cause the middle of your stock to bow up (imagine pressing a magazine together from both sides--the middle starts to bend up). In the case of the essential T-clamps, tightening too much can cause warping in the plastic of the clamp, rendering the clamp useless (or less useful at any rate) in the future. For me, this means tightening almost until I can't tighten with the _short_ side of the allen key.
+:::caution
+Do not tighten the screws on the clamps too much. They are only there to hold the piece until it's secure enough, and enough that they won't come loose from the CNC vibrations. Tightening too much can strip the screw, damage the T Track, or damage your stock. In the case of the tiger claw clamps, tightening the small screw too much can cause the middle of your stock to bow up (imagine pressing a magazine together from both sides--the middle starts to bend up). In the case of the essential T-clamps, tightening too much can cause warping in the plastic of the clamp, rendering the clamp useless (or less useful at any rate) in the future. For me, this means tightening almost until I can't tighten with the _short_ side of the allen key.
+:::
 
 ## Setting up the Machine
 Might just make a video for this

@@ -2,7 +2,7 @@
 Overview of the most common hardware on the rover!
 ## Fasteners
 ### Bolts
-> Bolts are fasteners with externally threaded shafts. They fasten onto a nut or female-threaded hole. Bolts we use are typically tightened with a hexagonally-shaped key. 
+> __Bolts__ are fasteners with externally threaded shafts. They fasten onto a nut or female-threaded hole. Bolts we use are typically tightened with a hexagonally-shaped key. 
 
 In this image, a bolt mates with a __nut__ on the opposite side of the material to be fastened:
 
@@ -50,7 +50,7 @@ There are several important characteristics of bolts, including the system of me
 </details>
 
 ### Nuts
-> Nuts are fastening elements used in conjunction with screws.
+> __Nuts__ are fastening elements used in conjunction with screws.
 
 There are many different types of nuts for different applications. Some of these are listed:
 * Hex Nuts: general purpose nut
@@ -59,7 +59,7 @@ There are many different types of nuts for different applications. Some of these
 * Thumb Screws: wings allow tightening and loosening by hand
 
 ### Rivets
-> Rivets are permanent fasteners that work by squeezing two items teogether by forcefully crushing metal. They are used when you can only access one side of the material, and are very easy to use with the right tools.
+> __Rivets__ are permanent fasteners that work by squeezing two items teogether by forcefully crushing metal. They are used when you can only access one side of the material, and are very easy to use with the right tools.
 
 ![Rivet Animation](./img/Rivet%20Animation.gif)
 
@@ -74,7 +74,7 @@ There are several important parts of a rivet:
 Rivets can be "drilled out" and replaced using a drill bit that corresponds to the diameter of the rivet pin
 
 ### Washers
-> Washers are used to distribute the load of tightening a bolt over a wider area, allowing the bolt to be more strongly tightened without damage to the surface. Especially important for plastic.
+> __Washers__ are used to distribute the load of tightening a bolt over a wider area, allowing the bolt to be more strongly tightened without damage to the surface. Especially important for plastic.
 >> Note: flat washers (most common) have a flat side and a rounded side--the flat side goes to the material and the rounded side goes to the bolt
 
 There are many different kinds of washers that you can look up for more info--some are shown in the image below:
@@ -83,11 +83,11 @@ There are many different kinds of washers that you can look up for more info--so
 
 ## Rotary Motion
 ### Shafts and Spacers
-> Shafts are used everywhere for rotary transmission. The most common for our use are roundshafts and hex shafts.
->> Spacers are just cylinders that keep distance between two elements on a shaft.
+> __Shafts__ are used everywhere for rotary transmission. The most common for our use are __roundshafts__ and __hex shafts__.
+>> __Spacers__ are just cylinders that keep distance between two elements on a shaft.
 
 ### Gears
-> Gears are one of the most basic pieces of rotary transmission hardware. They are used to swap rotation direction and in gearboxes for reducing speed/increasing torque.
+> __Gears__ are one of the most basic pieces of rotary transmission hardware. They are used to swap rotation direction and in gearboxes for reducing speed/increasing torque.
 
 <details>
 <summary>Advanced Topics</summary>
@@ -95,37 +95,32 @@ Bevel Gears? Gear Racks? Helix and Herringbone Gears? Worm Gears?
 </details>
 
 ### Bearings and Bushings
-> Bearings are commonly used to minimize the friction of a rotating shaft. An important feature of both bearings and bushing is whether or not they are __flanged__.
+> __Bearings__ are commonly used to minimize the friction of a spinning shaft. An important feature of both bearings and bushing is whether or not they are __flanged__.
 
-There are several different kinds of bearings:
+There are several different kinds of bearings that we've used commonly:
 
 * Ball Bearings
     * The shaft that spins goes in the middle and turns with the inner race.
 
-![Ball Bearing](./img/Ball%20Bearing.jpg)
+![Ball Bearing](./img/Ball%20Bearing.png)
 ![Ball Bearing Diagram](./img/Ball%20Bearing%20Diagram.png)
 
 * Needle Roller Bearings
     * Used for large shafts, where a ball bearing would get too big and heavy.
 
-![Needle Roller Bearing](./img/Needle%20Roller%20Bearing.jpg)
+![Needle Roller Bearing](./img/Needle%20Roller%20Bearing.png)
 
 * Thrust Bearings
     * Used where two faces rotate against each other.
 
-![Thrust Bearing](./img/Thrust%20Bearing.jpg)
+![Thrust Bearing](./img/Thrust%20Bearing.png)
 
-* Linear Bearing
-    * Used to slide smoothly along a rod.
-
-![Linear Bearing](./img/Linear%20Bearing.jpg)
-
-> Bushings are similarly used to minimize friction but have no moving elements and are _used for low speeds of rotation_. They are simply a low-friction cylinder made by injecting lubricant into metal somehow.
+> __Bushings__ are similarly used to minimize friction but have no moving elements and are _used for low speeds of rotation_. They are simply a low-friction cylinder made by injecting lubricant into metal somehow.
 
 ![Bushing](./img/Bushing.png)
 
 ### Lead Screws
-> Lead screws are essentially long bolts that are used to convert rotational motion to linear motion.
+> __Lead screws__ are essentially long bolts that are used to convert rotational motion to linear motion.
 
 ![Lead Screw Animation](./img/Lead%20Screw.gif)
 
@@ -144,15 +139,15 @@ Lead screws can have more than one [__start__](https://www.thomsonlinear.com/en/
 </details>
 
 ### Retaining Rings and Shaft Collars
-> Retaining rings are a low-profile solution put on the end of a shaft to stop the shaft from falling out the other way.
+> __Retaining rings__ are a low-profile solution put on the end of a shaft to stop the shaft from falling out the other way.
 
 There are two most common kinds of retaining rings: snap rings and e-clips. They fit into a groove on the shaft of specified width and diameter.
 
-![Retaining Rings](./img/Retaining%20Rings.jpg)
+![Retaining Rings](./img/Retaining%20Rings.png)
 
-> Shaft Collars are a high-profile and strong clamp to stop the shaft from falling out. They commonly use bolts or set screws to clamp.
+> __Shaft Collars__ are a high-profile and strong clamp to stop the shaft from falling out. They commonly use bolts or __set screws__ (a fully threaded screw with no head cap) to clamp.
 
-![Clamping Shaft Collar](./img/Clamping%20Shaft%20Collar.jpg)
-![Set Screw Collar](./img/Set%20Screw%20Collar.png)\
+![Clamping Shaft Collar](./img/Clamping%20Shaft%20Collar.png)
+![Set Screw Collar](./img/Set%20Screw%20Collar.png)
 
 _Documented by Micah Hsu_
