@@ -84,14 +84,34 @@ There are many different kinds of washers that you can look up for more info--so
 ## Rotary Motion
 ### Shafts and Spacers
 > __Shafts__ are used everywhere for rotary transmission. The most common for our use are __roundshafts__ and __hex shafts__.
->> __Spacers__ are just cylinders that keep distance between two elements on a shaft.
+>> __Spacers__ are just cylinders that keep distance between two elements on a shaft. They're typically nylon plastic.
+
+![Hex Shaft](./img/Hex%20Shaft.png)
+![Round Shaft](./img/Round%20Shaft.png)
+![Thunderhex Shaft](./img/Thunderhex%20Shaft.png)
 
 ### Gears
 > __Gears__ are one of the most basic pieces of rotary transmission hardware. They are used to swap rotation direction and in gearboxes for reducing speed/increasing torque.
 
+There are a few important characteristics about gears:
+* Tooth Count: How many teeth there are, needed for gear ratios.
+* Pitch Diameter: Important for designing gears to mesh. Essentially, if the pitch diameters of two gears are tangent to one another, then the gears will mesh properly.
+* Outer Diameter: The diameter of the whole gear.
+* Center Distance: The distance between the centers of the gears.
+
+![Spur Gear](./img/Spur%20Gear.png)
+
 <details>
 <summary>Advanced Topics</summary>
-Bevel Gears? Gear Racks? Helix and Herringbone Gears? Worm Gears?
+Another important feature of gears is Diametral Pitch (DP), which is the ratio of the number of teeth to the pitch diameter--higher DP allows you to fit gears in tight spots.
+<br></br><br></br>
+Technically, the gear shown in the picture above is a <strong>spur gear</strong>. However, there are many other useful types of gears:
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/Bevel_gear">Bevel Gears</a>: Used for 90 deree rotational transmission. A bevel gear with a 1:1 ratio is called a <strong>miter gear</strong>.</li>
+    <li><a href="https://www.iqsdirectory.com/articles/gear/worm-gears.html">Worm Gears</a>: While <strong>spur gears</strong> can cause a lot of <a href="https://en.wikipedia.org/wiki/Backlash_(engineering)">backlash</a>, worm gears are great for reducing backlash and smooth motion, as well as big gear reductions and quieter operation.</li>
+    <li><a href="https://en.wikipedia.org/wiki/Rack_and_pinion">Gear Racks (aka Rack and Pinion)</a>: Simple mechanism used to convert rotational motion to linear motion via gears.</li>
+    <li><a href="https://www.differencebox.com/engineering/difference-between-helical-gear-and-herringbone-gear/">Helix and Herringbone Gears</a>: <strong>Helical gears</strong> have teeth angled in a helix, resulting in more teeth contact and stronger power transmission, with side effect of some axial thrust force. <strong>Herringbone</strong> gears also have angled teeth, but they are shaped like a V so that the axial thrust forces cancel each other out. A Herringbone gear is a solid choice for 3D printed gears, as it gives more tooth contact and is quieter.</li>
+</ul>
 </details>
 
 ### Bearings and Bushings

@@ -22,19 +22,22 @@ The CNC Router is also _very_ dangerous. Keep in mind that the spindle is spinni
 
 This gitbook covers all of the fundamentals of CNCing with the Shapeoko. You should look through the whole gitbook and do further research to make sure you thoroughly understand these topics:
 * Anatomy of a CNC: Workbed, steppers, pulleys/belts, trim routers vs VFD
-* Feeds and speeds: feedrate, spindle RPMs, chipload, depth of cut, width of cut, stepover, adaptive tooling, etc.
+* Feeds and speeds: feedrate, spindle RPMs, chipload, depth of cut, width of cut, stepover, tool deflection, tool welding, adaptive tooling, etc.
 * Types of bits: flute count, material (e.g. carbide vs HSS?), upcut vs downcut, square vs ball, v-carve, etc.
 
 Outside of that, this book has a lot of good info to just look around.
 
 ## CAMing the Part
-Might just make a video for this
 
 CAM stands for Computer-Aided Manufacturing. It's how you convert a CAD part into instructions that a machine can understand. Most often, this is in the form of gcode. LINK TO INFO ABOUT GCODE.
 
 Currently, SC Robotics uses Carbide Create to CAM, though there are other popular CAM softwares out there (for the Shapeoko, notably Fusion 360 (which I wanna learn hehe) and MeshCAM). The free version of Carbide Create allows the user to cut strictly 2-D parts, like plates and such. This means the Z-axis never moves at the same time as the X and Y axis. Like a 3D printer, it cuts material away in discrete layers. _Almost all the time, this is all you'll need._ If you need more, it'll require specialized CAM software or outsourcing (or it means you should go change your design because it's too complicated). 
 
-Because everything is 2D, all that Carbide Create needs is a 2D drawing file of the part. This is .DXF file, which you can get from SolidWorks in Save As. 
+Because everything is 2D, all that Carbide Create needs is a 2D drawing file of the part. This is .DXF file, which you can get from SolidWorks in Save As DXF. In Carbide Create, use the import or open buttons to open your DXF file. From there, watch this tutorial for and [Intro to Carbide Create](https://www.youtube.com/watch?v=WGeu0WuEwbE&list=PLS3hpxHvkxfDMIF651Swa3tJCQOZNQczB&index=3)
+
+:::note
+Oftentimes, some curves of your imported DXF files will appear as pink in Carbide Create. This means that the contour is technically not "closed" (there's a tiny gap somewhere that you can't see). To fix this, select the contours that are pink and should be a single, closed contour, and click the "Join Vectors" icon in the "Edit" tab of the sidebar. Once the curve is black, it's closed (you may have to do this more than once).
+:::
 
 __EMPIRICAL FEEDS AND SPEEDS TABLE:__
 
@@ -48,7 +51,6 @@ __EMPIRICAL FEEDS AND SPEEDS TABLE:__
 
 
 ## Setting Up the Stock
-Might just make a video for this
 
 At the time of this documentation, there is a 24"x24" section of the bed that is cut away so that it is level with respect to the machine. However, we may soon switch to using purgeable MDF board with large clamps. Anyhow, make sure that your stock lays flat on this section.
 
@@ -60,10 +62,16 @@ Clamp down your stock using the essential T-clamps. These clamps are double-side
 Do not tighten the screws on the clamps too much. They are only there to hold the piece until it's secure enough, and enough that they won't come loose from the CNC vibrations. Tightening too much can strip the screw, damage the T Track, or damage your stock. In the case of the tiger claw clamps, tightening the small screw too much can cause the middle of your stock to bow up (imagine pressing a magazine together from both sides--the middle starts to bend up). In the case of the essential T-clamps, tightening too much can cause warping in the plastic of the clamp, rendering the clamp useless (or less useful at any rate) in the future. For me, this means tightening almost until I can't tighten with the _short_ side of the allen key.
 :::
 
-## Setting up the Machine
-Might just make a video for this
-## Zeroing and Running
-Might just make a video for this
+## Setting up the Machine and Running Your Job
+Watch this tutorial for an [Intro to Carbide Motion and Running Your CNC](https://www.youtube.com/watch?v=7W-QFcZS91c&list=PLS3hpxHvkxfDMIF651Swa3tJCQOZNQczB&index=2)
+
+When zeroing the Z-Axis to the top of a metal stock, _use a multimeter_ to detect when the tool touches the stock. Connect the multimeter probes to the metal bit and the metal stock, and slowly jog the bit downwards until you hear a beep from the multimeter (make sure the multimeter is in connectivity testing mode). Once it beeps, that's _basically_ the top of the stock and you can zero there (to be safe, you might want to move up 0.025mm and then zero, as there's could be play in how the stock metal flexes up)
+
+<details>
+<summary>Using the BitSetter</summary>
+The BitSetter is a tool length probe that allows you to seamlessly change tools in the middle of a job without the need for rezeroing the Z-axis. <a href="https://www.youtube.com/watch?v=I97XwLBmyuc">This BitSetter tutorial</a> shows how to use it.
+</details>
+
 ## Rules for Machining Success (honestly might be the most important)
 * Make sure your workholding is secure before starting to machine!
     * Use tiger claw clamps to prevent lateral movement.
