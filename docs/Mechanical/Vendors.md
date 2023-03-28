@@ -1,1 +1,1 @@
-# Vendors (best places to get the goods)
+# Vendors (where to get the goods)

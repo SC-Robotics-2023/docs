@@ -1,4 +1,4 @@
-# CNC Router (BIG WIP)
+# CNC Router
 
 ## Introduction and Safety
 The Shapeoko CNC Router is (currently) the most advanced, dangerous, and useful machine that SC Robotics uses. It takes a lot of hours, messed up parts, and broken bits to learn how to use this machine effectively. Don't worry! This documentation page has everything I wish I knew when I first started to use the CNC Router, so you're in good hands as long as you take the time to prepare and learn before jumping in.

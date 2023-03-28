@@ -17,25 +17,34 @@ There are several important characteristics of bolts, including the system of me
 * Bolt sizing
     * Metric: `nominal diameter`-`pitch` x `length`.
         * e.g. M4-0.7 x 12 is a bolt with a 4mm diameter, 0.7mm between threads, and 12mm of length
-    * Imperial: `major diameter`-`threads per inch` x `length`
+    * :star:Imperial: `major diameter`-`threads per inch` x `length`
         * e.g. 1/4-20 x 1/2" is a bolt with 1/4" diameter, 20 threads per inch, and 1/2" of length
     * As you work, you will begin to memorize these useful dimensions for imperial bolts:
 
 ![Imperial Drill and Tap Chart](./img/Imperial%20Chart.png)
 
+:::tip
+Use imperial first. Only use metric if off-the-shelf items require them. The most common bolts we use are #10 and 1/4" bolts--these should cover 90% of your needs.
+:::
+
 * Head Types:
-    * Button Head: Used for standard load applications. Most common.
+    * :star:Button Head: Used for standard load applications.
     * Socket Head: Used for high load applications. Taller head and bigger hex size allows for more torque to be applied when tightening, but requires more clearance.
     * Flat Head (CounterSunk): Used when little clearance is available for a head. Requires countersink drill bit.
 
 ![Bolt Types](./img/Bolt%20Types.png)
 
 * Loctite
-    * Loctite threadlocker is a liquid or gluestick that you rub on the threads of the bolt before fastening onto a tapped hole (not on nuts). It then expands and solidifies to fill the gap between the threads, friction-locking the bolt in place.
+    * Loctite threadlocker is a liquid or gluestick that you rub on _the first few_ threads of the bolt before fastening onto a tapped hole (not on nuts). It then expands and solidifies to fill the gap between the threads, friction-locking the bolt in place.
     * You should always use loctite on final assembly because screws can loosen and fall out due to vibration.
-    * When adding loctite, check if there is already old loctite (white crust) on the bolt. If so, clean off the bolt before reapplying to ensure the new loctite has clean threads to tighten.
-    * In almost all cases, blue loctite is good enough (there are stronger versions like red that make the bolt very difficult to remove)
-    * __NOTE:__ Do not use loctite for any bolt that fastens through plastic--the fumes released may crack/weaken the plastic. Use super glue instead if necessary.
+    * When adding loctite, clean off any old loctite (white crust) before reapplying to ensure the new loctite has clean threads to tighten.
+    * In almost all cases, _use blue loctite_.
+
+![Loctite](./img/Loctite.png)
+
+:::caution
+Do not use loctite for any bolt that fastens through plastic--the fumes released may crack/weaken the plastic. Use super glue instead if necessary.
+:::
 
 <details>
 <summary>Advanced Topics</summary>
@@ -54,32 +63,40 @@ There are several important characteristics of bolts, including the system of me
 
 There are many different types of nuts for different applications. Some of these are listed:
 * Hex Nuts: general purpose nut
-* Lock Nuts: a nylon insert compresses when the bolt is fastened, "locking" the nut in place. _most commonly used_
+* :star:Lock Nuts: a nylon insert compresses when the bolt is fastened, "locking" the nut in place. _most commonly used_
 * Flange Nuts: a flange distributes pressure, so you don't need a washer
-* Thumb Screws: wings allow tightening and loosening by hand
+* Wing Nuts: wings allow tightening and loosening by hand
+
+![Types of Nuts](./img/Types%20of%20Nuts.png)
 
 ### Rivets
 > __Rivets__ are permanent fasteners that work by squeezing two items teogether by forcefully crushing metal. They are used when you can only access one side of the material, and are very easy to use with the right tools.
 
 ![Rivet Animation](./img/Rivet%20Animation.gif)
 
-There are several important parts of a rivet:
+There are a couple important parts of a rivet:
 
 * Rivet pin: important features are diameter and grip length. Grip length determines how thick the material that you are fastening together can be.
 * Head: the head can be dome-headed (similar to button-headed bolts) or flush-headed (similar to flat-headed bolts)
-* Mandrel: there are different mandrel diameters for different strengths of rivets, and they need a specific attachment on the riveting tool
 
 ![Rivet Diagram](./img/Rivet%20Diagram.png)
 
-Rivets can be "drilled out" and replaced using a drill bit that corresponds to the diameter of the rivet pin
+:::note
+Rivets aren't fully permanent--they can be "drilled out" and replaced using a drill bit that corresponds to the diameter of the rivet pin
+
+The most common rivet we use is a 3/16" diameter rivet that fits into a 0.196" hole (hole size for #10 clearance). The hole is bigger because the rivet expands. 
+:::
 
 ### Washers
 > __Washers__ are used to distribute the load of tightening a bolt over a wider area, allowing the bolt to be more strongly tightened without damage to the surface. Especially important for plastic.
->> Note: flat washers (most common) have a flat side and a rounded side--the flat side goes to the material and the rounded side goes to the bolt
 
 There are many different kinds of washers that you can look up for more info--some are shown in the image below:
 
 ![Washers](./img/Washers.png)
+
+:::note
+Flat washers, the most common washer, have a flat side and a rounded side--the flat side goes to the material and the rounded side goes to the bolt
+:::
 
 ## Rotary Motion
 ### Shafts and Spacers
@@ -101,6 +118,10 @@ There are a few important characteristics about gears:
 
 ![Spur Gear](./img/Spur%20Gear.png)
 
+:::tip
+Avoid brass gears--they'll get chewed up. Use 7075 aluminum or steel gears.
+:::
+
 <details>
 <summary>Advanced Topics</summary>
 Another important feature of gears is Diametral Pitch (DP), which is the ratio of the number of teeth to the pitch diameter--higher DP allows you to fit gears in tight spots.
@@ -121,23 +142,24 @@ There are several different kinds of bearings that we've used commonly:
 
 * Ball Bearings
     * The shaft that spins goes in the middle and turns with the inner race.
+    * There are two important kinds of bearings: radial and flanged. Radial bearings have no flange and slip through holes. Flanged bearings have a flange on the outside so they can rest on a surface. 
 
 ![Ball Bearing](./img/Ball%20Bearing.png)
+![Flanged Bearing](./img/Flanged%20Bearing.png)
 ![Ball Bearing Diagram](./img/Ball%20Bearing%20Diagram.png)
-
-* Needle Roller Bearings
-    * Used for large shafts, where a ball bearing would get too big and heavy.
-
-![Needle Roller Bearing](./img/Needle%20Roller%20Bearing.png)
-
-* Thrust Bearings
-    * Used where two faces rotate against each other.
-
-![Thrust Bearing](./img/Thrust%20Bearing.png)
 
 > __Bushings__ are similarly used to minimize friction but have no moving elements and are _used for low speeds of rotation_. They are simply a low-friction cylinder made by injecting lubricant into metal somehow.
 
 ![Bushing](./img/Bushing.png)
+
+<details>
+<summary>Advanced Topics</summary>
+There are a couple more kinds of useful bearings that we have used: 
+<ul>
+    <li><a src="https://www.ritbearing.com/blog/archive/what-are-needle-roller-bearings/">Needle Roller Bearings</a>: Used where the shaft is too large and a ball bearing would get too big.</li>
+    <li><a src="https://tameson.com/pages/thrust-bearings">Thrust Bearings</a>: Used where two faces rotate against each other and support axial loads.</li>
+</ul>
+</details>
 
 ### Lead Screws
 > __Lead screws__ are essentially long bolts that are used to convert rotational motion to linear motion.
@@ -170,4 +192,5 @@ There are two most common kinds of retaining rings: snap rings and e-clips. They
 ![Clamping Shaft Collar](./img/Clamping%20Shaft%20Collar.png)
 ![Set Screw Collar](./img/Set%20Screw%20Collar.png)
 
+## Examples on the Rover!
 _Documented by Micah Hsu_
