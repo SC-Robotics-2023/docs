@@ -10,6 +10,8 @@ In SolidWorks, there is typically a two or three-step design process at the high
 * Assembly: After we have all the parts, we __mate__ them together to model the mechanism
 * Drawing: We can create drawings of parts and assemblies to help with manufacturing and assembly
 
+![Part and Assembly](./img/Assembly.png)
+
 ## SolidWorks Basics Tutorial
 _Follow along_ with this set of tutorials to learn the basics of SolidWorks:
 
@@ -23,7 +25,7 @@ _Follow along_ with this set of tutorials to learn the basics of SolidWorks:
 
 [Part 5](https://www.youtube.com/watch?v=bVsxlmzkFRY)
 
-## Always Use Hole Wizard!
+## Always Use Hole Wizard! :hole::mage:
 Aside from the features that were demonstrated in the tutorials above, Hole Wizard is probably the next most important feature that you'll ever use. It creates standard-sized holes for you so you never have to remember hole diameters or anything of like that.
 
 Follow [this tutorial](https://www.youtube.com/watch?v=cpfMU3pIVdk) to learn it!
@@ -41,4 +43,4 @@ The most common Hole Wizard settings are:
 ## NEXT: Your First SolidWorks Parts!
 Congratulations! You now know the 20% of SolidWorks that you'll use 80% of the time! HOWEVER, you need to _practice_. We'll practice with a bunch of challenge parts and assemblies. [SolidWorks Challenge](./SolidWorks%20Challenge.md)
 
-After becoming best friends with SolidWorks (actually it'll be a love-hate relationship), you'll get to use your own creativity to design your own mechanism, and that's where the fun begins! [SolidWorks Project](./Solidworks%20Project-Gearbox.md)
+_Documented by Micah Hsu_

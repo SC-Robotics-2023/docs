@@ -51,7 +51,7 @@ Do not use loctite for any bolt that fastens through plastic--the fumes released
 <ul>
     <li>Coarse threads vs fine threads</li>
     <li>Screw Clearances</li>
-    <li>Imperial bolt sizing numbers</li>
+    <li>Imperial bolt sizing numbers: 0.06" + (0.013 x number)</li>
     <li>Bolts vs Screws?</li>
     <li>More kinds of bolts</li>
     <li>More loctite!</li>
