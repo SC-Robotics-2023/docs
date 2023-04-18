@@ -13,7 +13,7 @@ In SolidWorks, there is typically a two or three-step design process at the high
 ![Part and Assembly](./img/Assembly.png)
 
 ## SolidWorks Basics Tutorial
-_Follow along_ with this set of tutorials to learn the basics of SolidWorks:
+Follow along with this set of tutorials if you want to learn the basics of SolidWorks:
 
 [Part 1](https://www.youtube.com/watch?v=VMVytWUt5S0)
 
@@ -38,6 +38,20 @@ Almost every hole should be made from Hole Wizard. If you are using Cut-Extrude 
 The most common Hole Wizard settings are:
 1. For screw clearance holes: Hole Type: `Hole`. Standard: `ANSI Inch/Metric`. Type: `Screw Clearances`.
 2. For screw tapped holes:  Hole Type: `Straight Tap`. Standard: `ANSI Inch/Metric`. Type: `Bottoming Tapped Hole`.
+:::
+
+## Naming Conventions
+Names for every custom designed (non-commercial) CAD file should follow include the year _in two numbers_, subsystem _in three characters_, P or A for part or assembly, part/assembly number, and description. For example:
+1. 21-AAA-A001-Rover.SLDASM
+2. 21-CHS-P048-Bellypan.SLDPRT
+3. 23-ARM-A001-Arm.SLDASM
+4. 22-ARM-A002-Cycloidal Gearbox.SLDASM
+5. 22-ARM-P002-Forearm Tube.SLDPRT
+
+:::tip Renaming Files
+To enable renaming, click Tools > Options > System Options > FeatureManager > Allow component files to be renamed from FeatureManager tree.
+
+Right click on the file name in the feature tree and click rename. It’ll ask you if you want to temporarily rename, and click yes. When you save the file with the temporarily renamed document, it’ll ask you for confirmation to completely change the name on a popup dialog, and just confirm with default settings.
 :::
 
 ## NEXT: Your First SolidWorks Parts!
