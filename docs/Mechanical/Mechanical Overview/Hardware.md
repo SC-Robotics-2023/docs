@@ -15,7 +15,7 @@ There are several important characteristics of bolts, including the system of me
 * Bolt sizing
     * Metric: `nominal diameter`-`pitch` x `length`.
         * e.g. M4-0.7 x 12 is a bolt with a 4mm diameter, 0.7mm between threads, and 12mm of length
-    * :star:Imperial: `major diameter`-`threads per inch` x `length`
+    * Imperial: `major diameter`-`threads per inch` x `length`
         * e.g. 1/4-20 x 1/2" is a bolt with 1/4" diameter, 20 threads per inch, and 1/2" of length
     * As you work, you will begin to memorize these useful dimensions for imperial bolts:
 
@@ -26,7 +26,7 @@ Use imperial first. Only use metric if off-the-shelf items require them. The mos
 :::
 
 * Head Types:
-    * :star:Button Head: Used for standard load applications.
+    * Button Head: Used for standard load applications.
     * Socket Head: Used for high load applications. Taller head and bigger hex size allows for more torque to be applied when tightening, but requires more clearance.
     * Flat Head (CounterSunk): Used when little clearance is available for a head. Requires countersink drill bit.
 
@@ -54,6 +54,8 @@ Do not use loctite for any bolt that fastens through plastic--the fumes released
             <li><a href="https://www.nord-lock.com/insights/bolting-tips/2010/choose-fine-or-coarse-thread-bolts/">Pros and Cons</a></li>
         </ul>
     <li>Imperial bolt size numbers follow this equation: 0.06" + (0.013 x number)</li>
+    <li>Bolts should be <em>preloaded</em> (tightened a bit) because it actually <a href="https://www.boltscience.com/pages/basics2.htm">lessens load on the bolt</a></li>
+    <li>On structural joints, it's a rule that the bolt should break before the threads strip in the tapped hole. A rule of thumb to accomplish this is that the depth of a tapped hole should be <a href="https://www.nord-lock.com/insights/bolting-tips/2015/the-experts-thread-engagement-in-a-tapped-hole/?fbclid=IwAR0nQBHL8x4iq5aVEkbM_SkreziKVQ29UIJiaKN1zWKZ2Gq8ixkrmMYxY5g#:~:text=It%20is%20commonly%20known%20that,%2C%20special%20alloys%2C%20etc">2x the nominal diameter of the bolt</a>. For less or non-structural components, you can go down to 1x or 0.5x, just trust your gut</li>
 </ul>
 </details>
 
@@ -62,7 +64,7 @@ Do not use loctite for any bolt that fastens through plastic--the fumes released
 
 There are many different types of nuts for different applications. Some of these are listed:
 * Hex Nuts: general purpose nut
-* :star:Lock Nuts: a nylon insert compresses when the bolt is fastened, "locking" the nut in place. _most commonly used_
+* Lock Nuts: a nylon insert compresses when the bolt is fastened, "locking" the nut in place. _most commonly used_
 * Flange Nuts: a flange distributes pressure, so you don't need a washer
 * Wing Nuts: wings allow tightening and loosening by hand
 
