@@ -4,12 +4,10 @@ Overview of the most common hardware on the rover!
 ### Bolts
 > __Bolts__ are fasteners with externally threaded shafts. They fasten onto a nut or female-threaded hole. Bolts we use are typically tightened with a hexagonally-shaped key. 
 
-In this image, a bolt mates with a __nut__ on the opposite side of the material to be fastened:
-
+In this image, a bolt mates with a __nut__ on the opposite side of the material to be fastened:  
 ![Bolt and Nut](./img/Bolt%20and%20Nut.png)
 
-In this image, a bolt goes through a __clearance hole__ (a hole that the bolt slips through) on one plate and mates with a __tapped hole__ (a hole that has threads in it) on a second plate:
-
+In this image, a bolt goes through a __clearance hole__ (a hole that the bolt slips through) on one plate and mates with a __tapped hole__ (a hole that has threads in it) on a second plate:  
 ![Bolt and Tapped Hole](./img/Bolt%20and%20Tapped%20Hole.png)
 
 There are several important characteristics of bolts, including the system of measurement, naming, and head type.
@@ -49,12 +47,13 @@ Do not use loctite for any bolt that fastens through plastic--the fumes released
 <details>
 <summary>Advanced Topics</summary>
 <ul>
-    <li>Coarse threads vs fine threads</li>
-    <li>Screw Clearances</li>
-    <li>Imperial bolt sizing numbers: 0.06" + (0.013 x number)</li>
-    <li>Bolts vs Screws?</li>
-    <li>More kinds of bolts</li>
-    <li>More loctite!</li>
+    <li>Coarse threads vs fine threads: In the imperial system, every bolt diameter has a coarse and a fine threaded version (UNC vs UNF) that indicates the relative threads per inch</li>
+        <ul>
+            <li>For example, a #10 bolt has 10-24 (coarse) and 10-32 (fine) threading.</li>
+            <li>Fine threads are more likely to be <a href="https://pedalchile.com/blog/cross-threading">galled/cross-threaded</a> and require more turns to fasten, but are stronger overall because there are more threads.</li>
+            <li><a href="https://www.nord-lock.com/insights/bolting-tips/2010/choose-fine-or-coarse-thread-bolts/">Pros and Cons</a></li>
+        </ul>
+    <li>Imperial bolt size numbers follow this equation: 0.06" + (0.013 x number)</li>
 </ul>
 </details>
 
@@ -72,15 +71,12 @@ There are many different types of nuts for different applications. Some of these
 ### Rivets
 > __Rivets__ are permanent fasteners that work by squeezing two items teogether by forcefully crushing metal. They are used when you can only access one side of the material, and are very easy to use with the right tools.
 
-![Rivet Animation](./img/Rivet%20Animation.gif)
-
+![Rivet Animation](./img/Rivet%20Animation.gif)  
 There are a couple important parts of a rivet:
-
 * Rivet pin: important features are diameter and grip length. Grip length determines how thick the material that you are fastening together can be.
 * Head: the head can be dome-headed (similar to button-headed bolts) or flush-headed (similar to flat-headed bolts)
 
-![Rivet Diagram](./img/Rivet%20Diagram.png)
-
+![Rivet Diagram](./img/Rivet%20Diagram.png)  
 :::note
 Rivets aren't fully permanent--they can be "drilled out" and replaced using a drill bit that corresponds to the diameter of the rivet pin
 
@@ -88,10 +84,9 @@ The most common rivet we use is a 3/16" diameter rivet that fits into a 0.196" h
 :::
 
 ### Washers
-> __Washers__ are used to distribute the load of tightening a bolt over a wider area, allowing the bolt to be more strongly tightened without damage to the surface. Especially important for plastic.
+> __Washers__ are used to distribute the load of tightening a bolt over a wider area, allowing the bolt to be more strongly tightened without damage to the surface. Especially important for plastic.  
 
-There are many different kinds of washers that you can look up for more info--some are shown in the image below:
-
+There are many different kinds of washers that you can look up for more info--some are shown in the image below:  
 ![Washers](./img/Washers.png)
 
 :::note
@@ -138,8 +133,7 @@ Technically, the gear shown in the picture above is a <strong>spur gear</strong>
 ### Bearings and Bushings
 > __Bearings__ are commonly used to minimize the friction of a spinning shaft. An important feature of both bearings and bushing is whether or not they are __flanged__.
 
-There are several different kinds of bearings that we've used commonly:
-
+There are several different kinds of bearings that we've used commonly:  
 * Ball Bearings
     * The shaft that spins goes in the middle and turns with the inner race.
     * There are two important kinds of bearings: radial and flanged. Radial bearings have no flange and slip through holes. Flanged bearings have a flange on the outside so they can rest on a surface. 

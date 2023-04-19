@@ -25,6 +25,4 @@ Then, compare your files with these solution files and videos to see how you cou
 
 Day0 Solution: [File](./Challenge/day0%20solution.SLDPRT) | [Video](./Challenge/day0%20solution.mp4)
 
-Okay, now you're best friends with SolidWorks!!! (actually it should be a love-hate relationship if anything) Now, you'll get to use your own creativity to design your own mechanism, and that's where the fun begins! [SolidWorks Project](./Solidworks%20Project-Gearbox.md)
-
 _Documented by Micah Hsu_
