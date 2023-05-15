@@ -23,6 +23,13 @@ As you design, follow this flowchart to understand the proper process to design 
 
 Then, compare your files with these solution files and videos to see how you could have done it better (redesigning it from scratch without looking is a plus). Of course, there is more than one way to design a part, and oftentimes there's no such thing as a "better" design. BUT if you're a beginner, you'll have something to learn:
 
-Day0 Solution: [File](./Challenge/day0%20solution.SLDPRT) | [Video](./Challenge/day0%20solution.mp4)
+Day0 Solution: [File](./Challenge/day0%20solution.SLDPRT) | [Video](./Challenge/day0%20solution.mp4)  
+Day1 Solution: [File](./Challenge/day1%20solution.SLDPRT) | [Video](./Challenge/day1%20solution.mp4)  
+Day2 Solution: [File](./Challenge/day2%20solution.SLDPRT) | [Video](./Challenge/day2%20solution.mp4)
+Day3 Solution:  
+Day4 Solution:  
+Day5 Solution: [File](./Challenge/day5%20solution.SLDPRT) | [Video](./Challenge/day5%20solution.mp4)
+Day6 Solution: 
+Day7 Solution:
 
 _Documented by Micah Hsu_
