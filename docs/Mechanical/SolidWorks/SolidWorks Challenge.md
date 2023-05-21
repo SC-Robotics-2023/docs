@@ -21,15 +21,17 @@ As you design, follow this flowchart to understand the proper process to design 
 
 [Day7](./Challenge/day7%203_pneumatic_tank_holder.pdf)
 
-Then, compare your files with these solution files and videos to see how you could have done it better (redesigning it from scratch without looking is a plus). Of course, there is more than one way to design a part, and oftentimes there's no such thing as a "better" design. BUT if you're a beginner, you'll have something to learn:
+Then, send your completed file to a more experienced member who can offer in-depth suggestions on how to improve the method of design. 
 
-Day0 Solution: [File](./Challenge/day0%20solution.SLDPRT) | [Video](./Challenge/day0%20solution.mp4)  
+If you want, you can compare your files with these solution files and videos to see how you could have done it better (redesigning it from scratch without looking is a plus). Of course, there is more than one way to design a part, and oftentimes there's no such thing as a "better" design. BUT if you're a beginner, you'll have something to learn:
+
+Day0 Solution: [File](./Challenge/day0%20solution.SLDPRT) | [Video](./Challenge/day0%20solution.mp4)  (note: use hole wizard for the holes)  
 Day1 Solution: [File](./Challenge/day1%20solution.SLDPRT) | [Video](./Challenge/day1%20solution.mp4)  
-Day2 Solution: [File](./Challenge/day2%20solution.SLDPRT) | [Video](./Challenge/day2%20solution.mp4)
+Day2 Solution: [File](./Challenge/day2%20solution.SLDPRT) | [Video](./Challenge/day2%20solution.mp4)  
 Day3 Solution:  
 Day4 Solution:  
-Day5 Solution: [File](./Challenge/day5%20solution.SLDPRT) | [Video](./Challenge/day5%20solution.mp4)
-Day6 Solution: 
+Day5 Solution: [File](./Challenge/day5%20solution.SLDPRT) | [Video](./Challenge/day5%20solution.mp4)  
+Day6 Solution:  
 Day7 Solution:
 
 _Documented by Micah Hsu_
