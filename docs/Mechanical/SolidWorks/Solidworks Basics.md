@@ -12,19 +12,6 @@ In SolidWorks, there is typically a two or three-step design process at the high
 
 ![Part and Assembly](./img/Assembly.png)
 
-## SolidWorks Basics Tutorial
-Follow along with this set of tutorials if you want to learn the basics of SolidWorks:
-
-[Part 1](https://www.youtube.com/watch?v=VMVytWUt5S0)
-
-[Part 2](https://www.youtube.com/watch?v=4wlEKAwpUX4)
-
-[Part 3](https://www.youtube.com/watch?v=1ePHOdaOMfw)
-
-[Part 4](https://www.youtube.com/watch?v=i4xJoJMqfX0)
-
-[Part 5](https://www.youtube.com/watch?v=bVsxlmzkFRY)
-
 ## Always Use Hole Wizard! :hole::mage:
 Aside from the features that were demonstrated in the tutorials above, Hole Wizard is probably the next most important feature that you'll ever use. It creates standard-sized holes for you so you never have to remember hole diameters or anything of like that.
 
