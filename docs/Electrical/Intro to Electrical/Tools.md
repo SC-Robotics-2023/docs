@@ -57,13 +57,13 @@
 ### Connectors
 * Anderson connector
 
-    ![Multimeter](./img/Anderson.png) 
+    ![Multimeter](./img/anderson.png) 
 * Dupont connector
 
-    ![Multimeter](./img/Dupont.png) 
+    ![Multimeter](./img/dupont.png) 
 * XT90/XT60 connector
 
-    ![Multimeter](./img/XT90.png) 
+    ![Multimeter](./img/xt90.png) 
 * Wago connector
 
     ![Multimeter](./img/wago.png) 
