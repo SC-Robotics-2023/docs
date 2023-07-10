@@ -38,6 +38,8 @@
 
 ### Multimeter 101
 
+![Multimeter](./img/Multimeter.png)
+
 * Measure Current, Voltage, Resistance, Continuity in AC and DC
 * Make sure that you got the correct ports! 
 * Make sure you have DC selected!
@@ -51,6 +53,24 @@
     * This configuration makes it so that the DMM has ideally no resistance so current flows through the ammeter to measure the branch’s current
     * Measure branch in _series_
     * __Ammeter:__ measures current
+
+### Connectors
+* Anderson connector
+
+    ![Multimeter](./img/Anderson.png) 
+* Dupont connector
+
+    ![Multimeter](./img/Dupont.png) 
+* XT90/XT60 connector
+
+    ![Multimeter](./img/XT90.png) 
+* Wago connector
+
+    ![Multimeter](./img/wago.png) 
+    
+    * Good for when there is no time to solder, but it is not a replacement for soldering
+    * Good for quick testing
+
 
 
 

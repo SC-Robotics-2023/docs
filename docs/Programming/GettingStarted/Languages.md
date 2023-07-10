@@ -28,11 +28,12 @@
 ```
 - Python uses the `print()` function to print text to the console.
 ```python
-print("I hate this team and I wished I quit long ago!")
+print("Hello World!")
 ```
-```
+
 Terminal Output:
-I hate this team and I wished I quit long ago!
+```
+Hello World!
 ```
 - Python uses the `input()` function to get input from the user.
 ```python
